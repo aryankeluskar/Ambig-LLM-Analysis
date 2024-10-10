@@ -1,0 +1,239 @@
+[
+    {
+        "nq_question": "When was the last time uga won a national championship?",
+        "nq_answer": [
+            "1980"
+        ],
+        "ambig_questions": [
+            {
+                "question": "When was the last time UGA won a national football championship?",
+                "answer": [
+                    "1980"
+                ]
+            },
+            {
+                "question": "When was the last time UGA won a national gymnastics championship?",
+                "answer": [
+                    "2009"
+                ]
+            },
+            {
+                "question": "When was the last time UGA won a national baseball championship?",
+                "answer": [
+                    "1990"
+                ]
+            },
+            {
+                "question": "When was the last time UGA won a national golf championship?",
+                "answer": [
+                    "2005"
+                ]
+            },
+            {
+                "question": "When was the last time UGA won a national women's swimming and diving championship?",
+                "answer": [
+                    "2016"
+                ]
+            },
+            {
+                "question": "When was the last time UGA won a national track and field championship?",
+                "answer": [
+                    "2018"
+                ]
+            },
+            {
+                "question": "When was the last time UGA won a national tennis championship?",
+                "answer": [
+                    "2019"
+                ]
+            },
+            {
+                "question": "When was the last time UGA won a national equestrian championship?",
+                "answer": [
+                    "2014"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_question": "Who played dumbledore in the harry potter movies?",
+        "nq_answer": [
+            "Michael Gambon",
+            "Richard Harris"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who played dumbledore in the first two harry potter movies?",
+                "answer": [
+                    "Richard Harris",
+                    "Harris",
+                    "Richard John Harris"
+                ]
+            },
+            {
+                "question": "Who played dumbledore in the third through eighth harry potter movies?",
+                "answer": [
+                    "Gambon",
+                    "Sir Michael John Gambon",
+                    "Michael Gambon"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_question": "Who wrote there's no business like show business?",
+        "nq_answer": [
+            "Phoebe Ephron and Henry Ephron"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who wrote the song \"There's No Business Like Show Business\"?",
+                "answer": [
+                    "Irving Berlin"
+                ]
+            },
+            {
+                "question": "Who wrote the screenplay for the film Irving Berlin's There's No Business Like Show Business?",
+                "answer": [
+                    "Phoebe Ephron and Henry Ephron"
+                ]
+            },
+            {
+                "question": "Who wrote the original screenplay for There's No Business Like Show Business?",
+                "answer": [
+                    "Lamar Trotti"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_question": "Who has the authority to impeach the president?",
+        "nq_answer": [
+            "The House of Representatives"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who has the authority to impeach the US president?",
+                "answer": [
+                    "Congress"
+                ]
+            },
+            {
+                "question": "Which house of congress has the authority to bring impeachment charges against the president?",
+                "answer": [
+                    "House of Representatives"
+                ]
+            }
+        ]
+    },{
+        "nq_question": "Who was the president of syria in 2000?",
+        "nq_answer": [
+            "Bashar al - Assad"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who became president of Syria on June 10, 2000?",
+                "answer": [
+                    "Abdul Halim Khaddam"
+                ]
+            },
+            {
+                "question": "Who became president of Syria on July 17, 2000?",
+                "answer": [
+                    "Bashar al-Assad"
+                ]
+            }
+        ]
+    },
+
+
+    {
+        "nq_question": "Who has the most points in nba finals history?",
+        "nq_answer": [
+            "Michael Jordan"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who has the most points in one game in NBA finals history?",
+                "answer": [
+                    "Elgin Baylor"
+                ]
+            },
+            {
+                "question": "Who has the most total points in NBA finals history?",
+                "answer": [
+                    "Jerry West"
+                ]
+            },
+            {
+                "question": "What team has the most points in one game in NBA finals history?",
+                "answer": [
+                    "Boston Celtics"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_question": "When was the first altar built in the bible?",
+        "nq_answer": [
+            "Genesis 8 : 20"
+        ],
+        "ambig_questions": [
+            {
+                "question": "In what book was the first altar built in the Bible?",
+                "answer": [
+                    "Old Testament"
+                ]
+            },
+            {
+                "question": "In what section was the first altar built in the Bible?",
+                "answer": [
+                    "Genesis 8:20"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_question": "Who sings the theme song of doc mcstuffins?",
+        "nq_answer": [
+            "China Anne McClain"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who sings the theme song of doc mcstuffins seasons 1-3?",
+                "answer": [
+                    "China Anne McClain"
+                ]
+            },
+            {
+                "question": "Who sings the theme song of doc mcstuffins after season 4?",
+                "answer": [
+                    "Amber Patrice Riley",
+                    "Amber Riley"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_question": "What is the strongest type of nuclear bomb?",
+        "nq_answer": [
+            "hydrogen bomb"
+        ],
+        "ambig_questions": [
+            {
+                "question": "What is the strongest of all nuclear bomb?",
+                "answer": [
+                    "Tsar Bomba",
+                    "The Soviet RDS-202 hydrogen bomb"
+                ]
+            },
+            {
+                "question": "What is the code name for the strongest nuclear bomb?",
+                "answer": [
+                    "Ivan",
+                    "Vanya"
+                ]
+            }
+        ]
+    }
+]
