@@ -1,0 +1,209 @@
+[
+    {
+        "data_id": "-6879428134571341185",
+        "ambig_question": "When does hotel transylvania part 3 come out?",
+        "ambig_prompt_response": "July 13, 2018.",
+        "disambig_question": "What is the release date for Hotel Transylvania Part 3?",
+        "disambig_prompt_response": "July 13, 2018.",
+        "ground_truth": [
+            "July 13 , 2018"
+        ]
+    },
+    {
+        "data_id": "804600793856177571",
+        "ambig_question": "When was daylight saving first introduced to australia?",
+        "ambig_prompt_response": "1916",
+        "disambig_question": "What timeframe marks the first introduction of daylight saving in Australia?",
+        "disambig_prompt_response": "1916",
+        "ground_truth": [
+            "World War I"
+        ]
+    },
+    {
+        "data_id": "-1678402464171096243",
+        "ambig_question": "How many post office branches in the uk?",
+        "ambig_prompt_response": "11,500",
+        "disambig_question": "What is the number of post office branches in the UK?",
+        "disambig_prompt_response": "Approximately 11,500.",
+        "ground_truth": [
+            "around 11,500"
+        ]
+    },
+    {
+        "data_id": "1829447224335269967",
+        "ambig_question": "Who won 2017 atp mexico open hard court tennis tournament?",
+        "ambig_prompt_response": "Sam Querrey.",
+        "disambig_question": "What player won the 2017 ATP Mexico Open hard court tennis tournament?",
+        "disambig_prompt_response": "Sam Querrey",
+        "ground_truth": [
+            "Sam Querrey",
+            "Anastasia Rodionova",
+            "Jamie Murray",
+            "Bruno Soares",
+            "Darija Jurak",
+            "Lesia Tsurenko"
+        ]
+    },
+    {
+        "data_id": "739474566037411469",
+        "ambig_question": "Which discipline of neuroscience studies nervous system disorders?",
+        "ambig_prompt_response": "Neurology",
+        "disambig_question": "What discipline of neuroscience focuses on nervous system disorders?",
+        "disambig_prompt_response": "Neurology",
+        "ground_truth": [
+            "Clinical neuroscience"
+        ]
+    },
+    {
+        "data_id": "-4142777293578935639",
+        "ambig_question": "When does episode 3 of final space come out?",
+        "ambig_prompt_response": "September 17, 2018.",
+        "disambig_question": "What is the release date for episode 3 of Final Space?",
+        "disambig_prompt_response": "February 26, 2018.",
+        "ground_truth": [
+            "March 12 , 2018"
+        ]
+    },
+    {
+        "data_id": "5694395508556331288",
+        "ambig_question": "Where did the the three kings come from?",
+        "ambig_prompt_response": "The East.",
+        "disambig_question": "What is the origin of the three kings?",
+        "disambig_prompt_response": "Christian tradition in the Gospel of Matthew.",
+        "ground_truth": [
+            "from the east"
+        ]
+    },
+    {
+        "data_id": "-3353695272638881438",
+        "ambig_question": "Who did matthew gray gubler play in batman assault on arkham?",
+        "ambig_prompt_response": "The Riddler",
+        "disambig_question": "What character did Matthew Gray Gubler play in Batman: Assault on Arkham?",
+        "disambig_prompt_response": "The Riddler",
+        "ground_truth": [
+            "Riddler / Edward Nygma"
+        ]
+    },
+    {
+        "data_id": "-6525373399334681447",
+        "ambig_question": "Who plays max branning's wife in eastenders?",
+        "ambig_prompt_response": "Tanya Franks",
+        "disambig_question": "What actress plays Max Branning's wife in EastEnders?",
+        "disambig_prompt_response": "Jo Joyner",
+        "ground_truth": [
+            "Jo Joyner"
+        ]
+    },
+    {
+        "data_id": "-3276837314554268589",
+        "ambig_question": "Do nz citizens need a visa for hong kong?",
+        "ambig_prompt_response": "No.",
+        "disambig_question": "What is the visa requirement for New Zealand citizens traveling to Hong Kong?",
+        "disambig_prompt_response": "Visa not required for up to 90 days.",
+        "ground_truth": [
+            "Hong Kong"
+        ]
+    },
+    {
+        "data_id": "2523869490115302337",
+        "ambig_question": "How long is the staton island ferry ride?",
+        "ambig_prompt_response": "25 minutes.",
+        "disambig_question": "What is the duration of the Staten Island Ferry ride?",
+        "disambig_prompt_response": "Approximately 25 minutes.",
+        "ground_truth": [
+            "25 minutes"
+        ]
+    },
+    {
+        "data_id": "4901042057530970181",
+        "ambig_question": "Who is the secretary of state for transport?",
+        "ambig_prompt_response": "Mark Harper",
+        "disambig_question": "What individual holds the position of secretary of state for transport?",
+        "disambig_prompt_response": "Mark Harper",
+        "ground_truth": [
+            "Chris Grayling"
+        ]
+    },
+    {
+        "data_id": "-8866718526237430044",
+        "ambig_question": "How many lanes does an olympic pool have?",
+        "ambig_prompt_response": "8",
+        "disambig_question": "What number of lanes does an Olympic pool have?",
+        "disambig_prompt_response": "10",
+        "ground_truth": [
+            "10"
+        ]
+    },
+    {
+        "data_id": "791658849820278329",
+        "ambig_question": "When did the song rockin robin come out?",
+        "ambig_prompt_response": "1958",
+        "disambig_question": "What is the release year of the song \"Rockin' Robin\"?",
+        "disambig_prompt_response": "1958",
+        "ground_truth": [
+            "1958"
+        ]
+    },
+    {
+        "data_id": "1180863749830234718",
+        "ambig_question": "Who sings the song raise a little hell?",
+        "ambig_prompt_response": "Trooper",
+        "disambig_question": "What band performs the song \"Raise a Little Hell\"?",
+        "disambig_prompt_response": "Trooper",
+        "ground_truth": [
+            "Canadian rock band Trooper"
+        ]
+    },
+    {
+        "data_id": "3018940836728242465",
+        "ambig_question": "Most victories in ncaa division i men's college basketball?",
+        "ambig_prompt_response": "University of Kentucky",
+        "disambig_question": "What team holds the record for the most victories in NCAA Division I men's college basketball?",
+        "disambig_prompt_response": "Kansas Jayhawks",
+        "ground_truth": [
+            "Kentucky"
+        ]
+    },
+    {
+        "data_id": "-2841277206184503954",
+        "ambig_question": "When does minecraft season 2 episode 2 release?",
+        "ambig_prompt_response": "There is no official series titled \"Minecraft Season 2 Episode 2,\" as Minecraft is a video game, not a serialized show with seasons and episodes.",
+        "disambig_question": "What is the release date for Minecraft Season 2 Episode 2?",
+        "disambig_prompt_response": "There is no \"Minecraft Season 2 Episode 2\" as Minecraft is not a series but a video game.",
+        "ground_truth": [
+            "August 15 , 2017"
+        ]
+    },
+    {
+        "data_id": "-1177619323020090813",
+        "ambig_question": "Who was the original writer of stand by me?",
+        "ambig_prompt_response": "Ben E. King.",
+        "disambig_question": "What person's name is listed as the original writer of \"Stand by Me\"?",
+        "disambig_prompt_response": "Ben E. King",
+        "ground_truth": [
+            "Jerry Leiber",
+            "Mike Stoller",
+            "Ben E. King"
+        ]
+    },
+    {
+        "data_id": "-977566290948055508",
+        "ambig_question": "Who was president when the bombs were dropped on japan?",
+        "ambig_prompt_response": "Harry S. Truman",
+        "disambig_question": "What person was president when the bombs were dropped on Japan?",
+        "disambig_prompt_response": "Harry S. Truman",
+        "ground_truth": [
+            "President Harry S. Truman"
+        ]
+    },
+    {
+        "data_id": "-2093895256462600547",
+        "ambig_question": "When did the incredibles 2 movie come out?",
+        "ambig_prompt_response": "2018",
+        "disambig_question": "What release date did the movie \"Incredibles 2\" have?",
+        "disambig_prompt_response": "June 15, 2018.",
+        "ground_truth": [
+            "on June 15 , 2018"
+        ]
+    }
+]
