@@ -1,209 +1,426 @@
 [
     {
-        "data_id": "-6879428134571341185",
-        "ambig_question": "When does hotel transylvania part 3 come out?",
-        "ambig_prompt_response": "July 13, 2018.",
-        "disambig_question": "What is the release date for Hotel Transylvania Part 3?",
-        "disambig_prompt_response": "July 13, 2018.",
+        "data_id": "-2735858160795120633",
+        "ambig_question": "Where is the lowest elevation in the world?",
+        "ambig_prompt_response": "The Dead Sea.",
+        "disambig_question": "What location holds the lowest elevation in the world?",
+        "disambig_prompt_response": "The Dead Sea.",
         "ground_truth": [
-            "July 13 , 2018"
-        ]
+            "Dead Sea"
+        ],
+        "question_distance": 0.9352477559694059,
+        "answer_distance": 1.0,
+        "ambig_answer_distance": 0.8420445680092311,
+        "disambig_answer_distance": 0.8420445680092311
     },
     {
-        "data_id": "804600793856177571",
-        "ambig_question": "When was daylight saving first introduced to australia?",
-        "ambig_prompt_response": "1916",
-        "disambig_question": "What timeframe marks the first introduction of daylight saving in Australia?",
-        "disambig_prompt_response": "1916",
+        "data_id": "-5398436847463533808",
+        "ambig_question": "Who voices beast in beauty and the beast 2017?",
+        "ambig_prompt_response": "Dan Stevens",
+        "disambig_question": "What actor voices the Beast in Beauty and the Beast 2017?",
+        "disambig_prompt_response": "Dan Stevens",
         "ground_truth": [
-            "World War I"
-        ]
+            "Adam Mitchell",
+            "Dan Stevens"
+        ],
+        "question_distance": 0.9661953002536665,
+        "answer_distance": 1.0000000000000013,
+        "ambig_answer_distance": 1.0000000000000013,
+        "disambig_answer_distance": 1.0000000000000013
     },
     {
-        "data_id": "-1678402464171096243",
-        "ambig_question": "How many post office branches in the uk?",
-        "ambig_prompt_response": "11,500",
-        "disambig_question": "What is the number of post office branches in the UK?",
-        "disambig_prompt_response": "Approximately 11,500.",
+        "data_id": "-2578020881292839975",
+        "ambig_question": "What season of blue bloods are we in?",
+        "ambig_prompt_response": "Season 14",
+        "disambig_question": "In what season of Blue Bloods are we currently in during 2018?",
+        "disambig_prompt_response": "Season 9",
         "ground_truth": [
-            "around 11,500"
-        ]
+            "eighth season"
+        ],
+        "question_distance": 0.9226859531985051,
+        "answer_distance": 0.641846107304588,
+        "ambig_answer_distance": 0.5714999866594473,
+        "disambig_answer_distance": 0.6115357286715232
     },
     {
-        "data_id": "1829447224335269967",
-        "ambig_question": "Who won 2017 atp mexico open hard court tennis tournament?",
-        "ambig_prompt_response": "Sam Querrey.",
-        "disambig_question": "What player won the 2017 ATP Mexico Open hard court tennis tournament?",
-        "disambig_prompt_response": "Sam Querrey",
+        "data_id": "5330941236576658337",
+        "ambig_question": "How many types of mangoes are grown in india?",
+        "ambig_prompt_response": "Over 1,500 varieties.",
+        "disambig_question": "What is the number of different types of mangoes grown in India?",
+        "disambig_prompt_response": "Over 1,000 types.",
         "ground_truth": [
-            "Sam Querrey",
-            "Anastasia Rodionova",
-            "Jamie Murray",
-            "Bruno Soares",
-            "Darija Jurak",
-            "Lesia Tsurenko"
-        ]
+            "283"
+        ],
+        "question_distance": 0.9461481833254914,
+        "answer_distance": 0.7727508110145581,
+        "ambig_answer_distance": 0.2443340486736475,
+        "disambig_answer_distance": 0.2923945976515391
     },
     {
-        "data_id": "739474566037411469",
-        "ambig_question": "Which discipline of neuroscience studies nervous system disorders?",
-        "ambig_prompt_response": "Neurology",
-        "disambig_question": "What discipline of neuroscience focuses on nervous system disorders?",
-        "disambig_prompt_response": "Neurology",
+        "data_id": "2783829821720859339",
+        "ambig_question": "Who turns out to be the mother in how i met your mother?",
+        "ambig_prompt_response": "Tracy McConnell.",
+        "disambig_question": "What character is revealed to be the mother in \"How I Met Your Mother\"?",
+        "disambig_prompt_response": "Tracy McConnell.",
         "ground_truth": [
-            "Clinical neuroscience"
-        ]
+            "Tracy McConnell"
+        ],
+        "question_distance": 0.9113130207604255,
+        "answer_distance": 1.0000000000000007,
+        "ambig_answer_distance": 0.9569594774349257,
+        "disambig_answer_distance": 0.9569594774349257
     },
     {
-        "data_id": "-4142777293578935639",
-        "ambig_question": "When does episode 3 of final space come out?",
-        "ambig_prompt_response": "September 17, 2018.",
-        "disambig_question": "What is the release date for episode 3 of Final Space?",
-        "disambig_prompt_response": "February 26, 2018.",
+        "data_id": "6933855891752284994",
+        "ambig_question": "When did they stop making pennies in canada?",
+        "ambig_prompt_response": "2012",
+        "disambig_question": "In what year did Canada stop making pennies?",
+        "disambig_prompt_response": "2012",
         "ground_truth": [
-            "March 12 , 2018"
-        ]
+            "May 2012"
+        ],
+        "question_distance": 0.9391136973930557,
+        "answer_distance": 0.9999999999999996,
+        "ambig_answer_distance": 0.6640836704299936,
+        "disambig_answer_distance": 0.6640836704299936
     },
     {
-        "data_id": "5694395508556331288",
-        "ambig_question": "Where did the the three kings come from?",
-        "ambig_prompt_response": "The East.",
-        "disambig_question": "What is the origin of the three kings?",
-        "disambig_prompt_response": "Christian tradition in the Gospel of Matthew.",
+        "data_id": "-964941354990822170",
+        "ambig_question": "Who is the president of south africa now?",
+        "ambig_prompt_response": "Cyril Ramaphosa",
+        "disambig_question": "What person is the president of South Africa now?",
+        "disambig_prompt_response": "Cyril Ramaphosa.",
         "ground_truth": [
-            "from the east"
-        ]
+            "Jacob Zuma"
+        ],
+        "question_distance": 0.9831670280463218,
+        "answer_distance": 0.9575878393434245,
+        "ambig_answer_distance": 0.6315484564344197,
+        "disambig_answer_distance": 0.6233082116477342
     },
     {
-        "data_id": "-3353695272638881438",
-        "ambig_question": "Who did matthew gray gubler play in batman assault on arkham?",
-        "ambig_prompt_response": "The Riddler",
-        "disambig_question": "What character did Matthew Gray Gubler play in Batman: Assault on Arkham?",
-        "disambig_prompt_response": "The Riddler",
+        "data_id": "-7922553386334138219",
+        "ambig_question": "What is the definition of low birth weight?",
+        "ambig_prompt_response": "Less than 2,500 grams (5 pounds, 8 ounces).",
+        "disambig_question": "What measurement is used to define low birth weight?",
+        "disambig_prompt_response": "Less than 2,500 grams (5.5 pounds).",
         "ground_truth": [
-            "Riddler / Edward Nygma"
-        ]
+            "2,499 g or less"
+        ],
+        "question_distance": 0.8559347978087352,
+        "answer_distance": 0.9465198471984932,
+        "ambig_answer_distance": 0.6301554284450044,
+        "disambig_answer_distance": 0.6261593198182609
     },
     {
-        "data_id": "-6525373399334681447",
-        "ambig_question": "Who plays max branning's wife in eastenders?",
-        "ambig_prompt_response": "Tanya Franks",
-        "disambig_question": "What actress plays Max Branning's wife in EastEnders?",
-        "disambig_prompt_response": "Jo Joyner",
+        "data_id": "-2892210906132123257",
+        "ambig_question": "When did they put gates on downing street?",
+        "ambig_prompt_response": "1989",
+        "disambig_question": "What timeframe did they put gates on Downing Street?",
+        "disambig_prompt_response": "1989",
         "ground_truth": [
-            "Jo Joyner"
-        ]
+            "1989"
+        ],
+        "question_distance": 0.9368009177499129,
+        "answer_distance": 1.0,
+        "ambig_answer_distance": 1.0,
+        "disambig_answer_distance": 1.0
     },
     {
-        "data_id": "-3276837314554268589",
-        "ambig_question": "Do nz citizens need a visa for hong kong?",
-        "ambig_prompt_response": "No.",
-        "disambig_question": "What is the visa requirement for New Zealand citizens traveling to Hong Kong?",
-        "disambig_prompt_response": "Visa not required for up to 90 days.",
+        "data_id": "261255046711108270",
+        "ambig_question": "How old was mary queen of scots when she took the throne?",
+        "ambig_prompt_response": "Mary Queen of Scots was 6 days old when she took the throne.",
+        "disambig_question": "What was the age of Mary Queen of Scots when she took the throne?",
+        "disambig_prompt_response": "Six days old.",
         "ground_truth": [
-            "Hong Kong"
-        ]
+            "sixteen"
+        ],
+        "question_distance": 0.9705923917056328,
+        "answer_distance": 0.4176660294395183,
+        "ambig_answer_distance": 0.20164187285803,
+        "disambig_answer_distance": 0.3174435928922882
     },
     {
-        "data_id": "2523869490115302337",
-        "ambig_question": "How long is the staton island ferry ride?",
-        "ambig_prompt_response": "25 minutes.",
-        "disambig_question": "What is the duration of the Staten Island Ferry ride?",
-        "disambig_prompt_response": "Approximately 25 minutes.",
+        "data_id": "4884814654570325161",
+        "ambig_question": "Who wrote a diary about the great fire of london?",
+        "ambig_prompt_response": "Samuel Pepys",
+        "disambig_question": "What person wrote a diary about the Great Fire of London?",
+        "disambig_prompt_response": "Samuel Pepys",
         "ground_truth": [
-            "25 minutes"
-        ]
+            "Samuel Pepys"
+        ],
+        "question_distance": 0.9883213794282395,
+        "answer_distance": 1.0000000000000018,
+        "ambig_answer_distance": 1.0000000000000018,
+        "disambig_answer_distance": 1.0000000000000018
     },
     {
-        "data_id": "4901042057530970181",
-        "ambig_question": "Who is the secretary of state for transport?",
-        "ambig_prompt_response": "Mark Harper",
-        "disambig_question": "What individual holds the position of secretary of state for transport?",
-        "disambig_prompt_response": "Mark Harper",
+        "data_id": "846559100871689657",
+        "ambig_question": "Who wrote the new york state constitution of 1777?",
+        "ambig_prompt_response": "John Jay",
+        "disambig_question": "What person authored the New York State Constitution of 1777?",
+        "disambig_prompt_response": "John Jay",
         "ground_truth": [
-            "Chris Grayling"
-        ]
+            "Robert R. Livingston",
+            "John Jay",
+            "Gouverneur Morris"
+        ],
+        "question_distance": 0.9539790535916459,
+        "answer_distance": 0.9999992369393104,
+        "ambig_answer_distance": 0.999999167693598,
+        "disambig_answer_distance": 0.9999999999999997
     },
     {
-        "data_id": "-8866718526237430044",
-        "ambig_question": "How many lanes does an olympic pool have?",
-        "ambig_prompt_response": "8",
-        "disambig_question": "What number of lanes does an Olympic pool have?",
-        "disambig_prompt_response": "10",
+        "data_id": "-3793264343785361305",
+        "ambig_question": "Where does christina yang go in season 9?",
+        "ambig_prompt_response": "Mayo Clinic",
+        "disambig_question": "What location does Christina Yang go to in season 9?",
+        "disambig_prompt_response": "Minnesota.",
         "ground_truth": [
-            "10"
-        ]
+            "Minnesota"
+        ],
+        "question_distance": 0.9598930704253279,
+        "answer_distance": 0.3359799158632264,
+        "ambig_answer_distance": 0.34693200477774433,
+        "disambig_answer_distance": 0.9354703136369705
     },
     {
-        "data_id": "791658849820278329",
-        "ambig_question": "When did the song rockin robin come out?",
-        "ambig_prompt_response": "1958",
-        "disambig_question": "What is the release year of the song \"Rockin' Robin\"?",
-        "disambig_prompt_response": "1958",
+        "data_id": "4294426664193526321",
+        "ambig_question": "Where did they film return of the jedi endor?",
+        "ambig_prompt_response": "Redwood National and State Parks, California.",
+        "disambig_question": "What location did they use to film the Endor scenes in \"Return of the Jedi\"?",
+        "disambig_prompt_response": "Redwood National and State Parks, California.",
         "ground_truth": [
-            "1958"
-        ]
+            "Del Norte County , CA"
+        ],
+        "question_distance": 0.9196670878763518,
+        "answer_distance": 0.9999999999999996,
+        "ambig_answer_distance": 0.41358780546600904,
+        "disambig_answer_distance": 0.41358780546600904
     },
     {
-        "data_id": "1180863749830234718",
-        "ambig_question": "Who sings the song raise a little hell?",
-        "ambig_prompt_response": "Trooper",
-        "disambig_question": "What band performs the song \"Raise a Little Hell\"?",
-        "disambig_prompt_response": "Trooper",
+        "data_id": "-5590188699529205461",
+        "ambig_question": "Who is jason's real mother on general hospital?",
+        "ambig_prompt_response": "Monica Quartermaine",
+        "disambig_question": "What person is Jason's real mother on General Hospital?",
+        "disambig_prompt_response": "Susan Moore",
         "ground_truth": [
-            "Canadian rock band Trooper"
-        ]
+            "Monica"
+        ],
+        "question_distance": 0.9924166671017725,
+        "answer_distance": 0.34033048886120276,
+        "ambig_answer_distance": 0.7462360684263212,
+        "disambig_answer_distance": 0.33222204364107055
     },
     {
-        "data_id": "3018940836728242465",
-        "ambig_question": "Most victories in ncaa division i men's college basketball?",
-        "ambig_prompt_response": "University of Kentucky",
-        "disambig_question": "What team holds the record for the most victories in NCAA Division I men's college basketball?",
-        "disambig_prompt_response": "Kansas Jayhawks",
+        "data_id": "4805212928450119213",
+        "ambig_question": "Who plays carrie on little house on the prairie?",
+        "ambig_prompt_response": "Lindsay Greenbush",
+        "disambig_question": "What actress plays Carrie on Little House on the Prairie?",
+        "disambig_prompt_response": "Lindsay Greenbush",
         "ground_truth": [
-            "Kentucky"
-        ]
+            "Rachel Lindsay Rene Bush",
+            "Sidney Robyn Danae Bush"
+        ],
+        "question_distance": 0.9783240432503146,
+        "answer_distance": 0.9999999999999996,
+        "ambig_answer_distance": 0.6591529178003955,
+        "disambig_answer_distance": 0.6591529178003955
     },
     {
-        "data_id": "-2841277206184503954",
-        "ambig_question": "When does minecraft season 2 episode 2 release?",
-        "ambig_prompt_response": "There is no official series titled \"Minecraft Season 2 Episode 2,\" as Minecraft is a video game, not a serialized show with seasons and episodes.",
-        "disambig_question": "What is the release date for Minecraft Season 2 Episode 2?",
-        "disambig_prompt_response": "There is no \"Minecraft Season 2 Episode 2\" as Minecraft is not a series but a video game.",
+        "data_id": "-9174794329174540234",
+        "ambig_question": "When did apple tv 4th generation come out?",
+        "ambig_prompt_response": "October 30, 2015",
+        "disambig_question": "What year did the Apple TV 4th generation come out? (Specify 2018 if needed)",
+        "disambig_prompt_response": "2015",
         "ground_truth": [
-            "August 15 , 2017"
-        ]
+            "October 2015"
+        ],
+        "question_distance": 0.8412909130196322,
+        "answer_distance": 0.6107359107045454,
+        "ambig_answer_distance": 0.8216142768574684,
+        "disambig_answer_distance": 0.71664523935644
     },
     {
-        "data_id": "-1177619323020090813",
-        "ambig_question": "Who was the original writer of stand by me?",
-        "ambig_prompt_response": "Ben E. King.",
-        "disambig_question": "What person's name is listed as the original writer of \"Stand by Me\"?",
-        "disambig_prompt_response": "Ben E. King",
+        "data_id": "4924936195381253041",
+        "ambig_question": "Who holds the most consecutive wins in mlb?",
+        "ambig_prompt_response": "New York Giants (1916)",
+        "disambig_question": "What team holds the most consecutive wins in MLB?",
+        "disambig_prompt_response": "New York Giants",
         "ground_truth": [
-            "Jerry Leiber",
-            "Mike Stoller",
-            "Ben E. King"
-        ]
+            "New York Giants"
+        ],
+        "question_distance": 0.8662249500665447,
+        "answer_distance": 0.7705241782404361,
+        "ambig_answer_distance": 0.7705241782404361,
+        "disambig_answer_distance": 0.9999999999999989
     },
     {
-        "data_id": "-977566290948055508",
-        "ambig_question": "Who was president when the bombs were dropped on japan?",
-        "ambig_prompt_response": "Harry S. Truman",
-        "disambig_question": "What person was president when the bombs were dropped on Japan?",
-        "disambig_prompt_response": "Harry S. Truman",
+        "data_id": "-8901698354024630837",
+        "ambig_question": "How many episodes in season 2 of happy valley?",
+        "ambig_prompt_response": "Six.",
+        "disambig_question": "In the year 2018, what is the number of episodes in season 2 of \"Happy Valley\"?",
+        "disambig_prompt_response": "6",
         "ground_truth": [
-            "President Harry S. Truman"
-        ]
+            "six"
+        ],
+        "question_distance": 0.9320330425711854,
+        "answer_distance": 0.6429479674450139,
+        "ambig_answer_distance": 0.765870185928943,
+        "disambig_answer_distance": 0.6310083346318558
     },
     {
-        "data_id": "-2093895256462600547",
-        "ambig_question": "When did the incredibles 2 movie come out?",
-        "ambig_prompt_response": "2018",
-        "disambig_question": "What release date did the movie \"Incredibles 2\" have?",
-        "disambig_prompt_response": "June 15, 2018.",
+        "data_id": "-8434678371817632975",
+        "ambig_question": "Who was a at the beginning of pretty little liars?",
+        "ambig_prompt_response": "Alison DiLaurentis",
+        "disambig_question": "What person was \"A\" at the beginning of Pretty Little Liars?",
+        "disambig_prompt_response": "Mona Vanderwaal",
         "ground_truth": [
-            "on June 15 , 2018"
-        ]
+            "Mona Vanderwaal ,"
+        ],
+        "question_distance": 0.9310728382855189,
+        "answer_distance": 0.35138638431472385,
+        "ambig_answer_distance": 0.3492966308851985,
+        "disambig_answer_distance": 0.9520286899303271
+    },
+    {
+        "data_id": "-3207884824372475669",
+        "ambig_question": "When did the us break away from england?",
+        "ambig_prompt_response": "1776",
+        "disambig_question": "What year did the US break away from England?",
+        "disambig_prompt_response": "1776",
+        "ground_truth": [
+            "September 3 , 1783"
+        ],
+        "question_distance": 0.9750731789742406,
+        "answer_distance": 1.0000000000000009,
+        "ambig_answer_distance": 0.5557181337649113,
+        "disambig_answer_distance": 0.5557181337649113
+    },
+    {
+        "data_id": "-7688684232647280023",
+        "ambig_question": "Where is e3 2019 going to be held?",
+        "ambig_prompt_response": "Los Angeles Convention Center.",
+        "disambig_question": "What location is hosting E3 2019?",
+        "disambig_prompt_response": "Los Angeles Convention Center.",
+        "ground_truth": [
+            "the Los Angeles Convention Center"
+        ],
+        "question_distance": 0.878044518088738,
+        "answer_distance": 0.9999999999999992,
+        "ambig_answer_distance": 0.9280532483576625,
+        "disambig_answer_distance": 0.9280532483576625
+    },
+    {
+        "data_id": "-1534436996731657478",
+        "ambig_question": "Who wrote what you won't do for love?",
+        "ambig_prompt_response": "Bobby Caldwell",
+        "disambig_question": "What person wrote \"What You Won't Do for Love\"?",
+        "disambig_prompt_response": "Bobby Caldwell",
+        "ground_truth": [
+            "Bobby Caldwell"
+        ],
+        "question_distance": 0.8986760478542726,
+        "answer_distance": 1.0000000000000009,
+        "ambig_answer_distance": 1.0000000000000009,
+        "disambig_answer_distance": 1.0000000000000009
+    },
+    {
+        "data_id": "-794169316362386713",
+        "ambig_question": "When did the european union start and for what main reason?",
+        "ambig_prompt_response": "1958, economic integration.",
+        "disambig_question": "What timeframe did the European Union start in? What was the main reason for its founding?",
+        "disambig_prompt_response": "1950s; To promote economic cooperation and prevent conflict in Europe.",
+        "ground_truth": [
+            "1 November 1993"
+        ],
+        "question_distance": 0.864125369101133,
+        "answer_distance": 0.602484080493517,
+        "ambig_answer_distance": 0.38063746507508933,
+        "disambig_answer_distance": 0.28662523696336745
+    },
+    {
+        "data_id": "-846321928275937158",
+        "ambig_question": "The barkana waterfalls is located in which state?",
+        "ambig_prompt_response": "Karnataka",
+        "disambig_question": "The Barkana Waterfalls is located in what state?",
+        "disambig_prompt_response": "Karnataka",
+        "ground_truth": [
+            "state of Karnataka , India"
+        ],
+        "question_distance": 0.982341381136898,
+        "answer_distance": 1.000000000000001,
+        "ambig_answer_distance": 0.8124835139406057,
+        "disambig_answer_distance": 0.8124507826456238
+    },
+    {
+        "data_id": "-3646009549730386860",
+        "ambig_question": "Who sings the only fools and horses theme?",
+        "ambig_prompt_response": "John Sullivan",
+        "disambig_question": "What person sings the \"Only Fools and Horses\" theme?",
+        "disambig_prompt_response": "John Sullivan",
+        "ground_truth": [
+            "John Sullivan"
+        ],
+        "question_distance": 0.967601026207674,
+        "answer_distance": 0.999999266517406,
+        "ambig_answer_distance": 1.0000000000000007,
+        "disambig_answer_distance": 1.0000000000000007
+    },
+    {
+        "data_id": "-2742008795878689291",
+        "ambig_question": "Where did the roman spectators watch chariot races?",
+        "ambig_prompt_response": "Circus Maximus",
+        "disambig_question": "What location did the Roman spectators use to watch chariot races?",
+        "disambig_prompt_response": "Circus Maximus",
+        "ground_truth": [
+            "a circus"
+        ],
+        "question_distance": 0.9543757418305681,
+        "answer_distance": 1.0000000000000002,
+        "ambig_answer_distance": 0.6754600935575907,
+        "disambig_answer_distance": 0.6754600935575907
+    },
+    {
+        "data_id": "160462365288125381",
+        "ambig_question": "Who should be called the father of radio?",
+        "ambig_prompt_response": "Guglielmo Marconi",
+        "disambig_question": "What individual should be called the father of radio?",
+        "disambig_prompt_response": "Guglielmo Marconi",
+        "ground_truth": [
+            "Lee de Forest"
+        ],
+        "question_distance": 0.9767232029826212,
+        "answer_distance": 1.0000000000000018,
+        "ambig_answer_distance": 0.16036456469139476,
+        "disambig_answer_distance": 0.16035376381139022
+    },
+    {
+        "data_id": "3319993667507902552",
+        "ambig_question": "Who has won the most little league world series?",
+        "ambig_prompt_response": "Taiwan",
+        "disambig_question": "What team has won the most Little League World Series?",
+        "disambig_prompt_response": "Taiwan",
+        "ground_truth": [
+            "Taiwan"
+        ],
+        "question_distance": 0.9549180531470096,
+        "answer_distance": 1.0000000000000002,
+        "ambig_answer_distance": 1.0000000000000002,
+        "disambig_answer_distance": 1.0000000000000002
+    },
+    {
+        "data_id": "907287579079542483",
+        "ambig_question": "The sandhu bat island on which the statue of unity is to be built is located on which river?",
+        "ambig_prompt_response": "Narmada",
+        "disambig_question": "On what river is the Sandhu Bat Island, where the Statue of Unity is to be built, located?",
+        "disambig_prompt_response": "Narmada River",
+        "ground_truth": [
+            "Narmada River"
+        ],
+        "question_distance": 0.937794829735396,
+        "answer_distance": 0.8150399792003982,
+        "ambig_answer_distance": 0.8150399792003982,
+        "disambig_answer_distance": 0.9999999999999996
     }
 ]

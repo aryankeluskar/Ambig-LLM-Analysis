@@ -25,7 +25,7 @@ for i in sample:
         messages=[
             {
                 "role": "user",
-                "content": f"rewrite this question replacing all questions with a what, but retain the meaning by specifying what entity or what person or what smallest timeframe (like day if possible, or month or year) the \"what\" answering. specify the year is 2018 is needed to answer a time-based question. {i['nq_question']}",
+                "content": f"rewrite this question replacing all questions with a what, but retain the meaning by specifying what entity or what person or what smallest timeframe (like day if possible, or month or year) the \"what\" answering. Specify the year is 2018 is needed to answer a time-based question. {i['nq_question']}",
             }
         ],
         model="gpt-4o", temperature=0.2
