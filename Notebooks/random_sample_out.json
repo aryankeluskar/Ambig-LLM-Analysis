@@ -1,0 +1,188 @@
+[
+    {
+        "data_id": "-7149405112933802177",
+        "ambig_question": "Who came in second on america's got talent 2016?",
+        "disambig_question": "What contestant secured the second place on America's Got Talent in the year 2016?",
+        "llm_response": "The Clairvoyants",
+        "ground_truth": [
+            "The Clairvoyants"
+        ]
+    },
+    {
+        "data_id": "8309957381355393787",
+        "ambig_question": "What is the population of parkersburg west virginia?",
+        "disambig_question": "What was the population of Parkersburg, West Virginia, in 2018?",
+        "llm_response": "30,096",
+        "ground_truth": [
+            "31,492 at the 2010 census"
+        ]
+    },
+    {
+        "data_id": "-8423604557298253630",
+        "ambig_question": "When was the last time there was a nba finals sweep?",
+        "disambig_question": "What year did the most recent NBA Finals sweep occur?",
+        "llm_response": "2018",
+        "ground_truth": [
+            "2018"
+        ]
+    },
+    {
+        "data_id": "-2237911914399266353",
+        "ambig_question": "When did ohio become part of the united states?",
+        "disambig_question": "What year did Ohio become part of the United States?",
+        "llm_response": "1803",
+        "ground_truth": [
+            "March 1 , 1803"
+        ]
+    },
+    {
+        "data_id": "-5357027503592759628",
+        "ambig_question": "How many members are in the greek orthodox church?",
+        "disambig_question": "What is the total number of members in the Greek Orthodox Church?",
+        "llm_response": "Approximately 10 million.",
+        "ground_truth": [
+            "23 -- 24 million"
+        ]
+    },
+    {
+        "data_id": "-3483102088850252196",
+        "ambig_question": "Who played the easter bunny in rise of the guardians?",
+        "disambig_question": "What actor played the Easter Bunny in \"Rise of the Guardians\"?",
+        "llm_response": "Hugh Jackman",
+        "ground_truth": [
+            "Hugh Jackman"
+        ]
+    },
+    {
+        "data_id": "-3430387669519489370",
+        "ambig_question": "How many seasons are there of star wars the clone wars?",
+        "disambig_question": "What is the total number of seasons of Star Wars: The Clone Wars?",
+        "llm_response": "Seven.",
+        "ground_truth": [
+            "6"
+        ]
+    },
+    {
+        "data_id": "-2052611119263412829",
+        "ambig_question": "What is the name of the pirate in spongebob?",
+        "disambig_question": "What is the name of the pirate character in SpongeBob?",
+        "llm_response": "Patchy the Pirate",
+        "ground_truth": [
+            "Patchy"
+        ]
+    },
+    {
+        "data_id": "-4058347494892137759",
+        "ambig_question": "Who played nelson mandela in the long walk to freedom?",
+        "disambig_question": "What actor played Nelson Mandela in \"The Long Walk to Freedom\"?",
+        "llm_response": "Idris Elba",
+        "ground_truth": [
+            "Idris Elba"
+        ]
+    },
+    {
+        "data_id": "8720931245992054917",
+        "ambig_question": "Lord please give me the serenity to accept the things i cannot change?",
+        "disambig_question": "What is the prayer that asks for serenity to accept the things one cannot change?",
+        "llm_response": "Serenity Prayer",
+        "ground_truth": [
+            "Serenity Prayer"
+        ]
+    },
+    {
+        "data_id": "8089124828320202891",
+        "ambig_question": "Last person convicted of treason in the united states?",
+        "disambig_question": "What person was the last to be convicted of treason in the United States?",
+        "llm_response": "Tomoya Kawakita",
+        "ground_truth": [
+            "1952"
+        ]
+    },
+    {
+        "data_id": "-8590159301829297488",
+        "ambig_question": "When was the us public health service founded?",
+        "disambig_question": "What year was the US Public Health Service founded?",
+        "llm_response": "1798",
+        "ground_truth": [
+            "1798"
+        ]
+    },
+    {
+        "data_id": "2205307574948120843",
+        "ambig_question": "How many layers are there in osi model?",
+        "disambig_question": "What is the number of layers in the OSI model?",
+        "llm_response": "7",
+        "ground_truth": [
+            "seven"
+        ]
+    },
+    {
+        "data_id": "6890568260701803101",
+        "ambig_question": "Who played clarice starling in silence of the lambs?",
+        "disambig_question": "What actress played Clarice Starling in \"Silence of the Lambs\"?",
+        "llm_response": "Jodie Foster",
+        "ground_truth": [
+            "Jodie Foster"
+        ]
+    },
+    {
+        "data_id": "1181577210082200785",
+        "ambig_question": "Backwards compatible xbox one games call of duty?",
+        "disambig_question": "What Call of Duty games are backwards compatible on Xbox One?",
+        "llm_response": "Call of Duty 2, Call of Duty 3, Call of Duty 4: Modern Warfare, Call of Duty: World at War, Call of Duty: Modern Warfare 2, Call of Duty: Modern Warfare 3, Call of Duty: Black Ops, Call of Duty: Black Ops II.",
+        "ground_truth": [
+            "Call of Duty : Ghosts",
+            "Call of Duty 2",
+            "Call of Duty 3"
+        ]
+    },
+    {
+        "data_id": "3008230988219650182",
+        "ambig_question": "Who developed a method of printing that greatly stimulated the growth of literacy?",
+        "disambig_question": "What person developed a method of printing that greatly stimulated the growth of literacy?",
+        "llm_response": "Johannes Gutenberg",
+        "ground_truth": [
+            "Johannes Gutenberg"
+        ]
+    },
+    {
+        "data_id": "-2314178162307645387",
+        "ambig_question": "Who sings they shoot horses don't they?",
+        "disambig_question": "What artist sings \"They Shoot Horses Don't They?\"",
+        "llm_response": "Racing Cars",
+        "ground_truth": [
+            "Quickspace",
+            "Racing Cars"
+        ]
+    },
+    {
+        "data_id": "-1571127771993384414",
+        "ambig_question": "Where did the bristol stool chart come from?",
+        "disambig_question": "What origin does the Bristol Stool Chart have?",
+        "llm_response": "British",
+        "ground_truth": [
+            "Scandinavian Journal of Gastroenterology",
+            "Dr. Ken Heaton",
+            "England",
+            "Dr. Stephen Lewis"
+        ]
+    },
+    {
+        "data_id": "3271515221040982454",
+        "ambig_question": "Who wrote the children's book the snowman?",
+        "disambig_question": "What author wrote the children's book \"The Snowman\"?",
+        "llm_response": "Raymond Briggs",
+        "ground_truth": [
+            "English author Raymond Briggs"
+        ]
+    },
+    {
+        "data_id": "7775983008254057747",
+        "ambig_question": "When was the first road to key west built?",
+        "disambig_question": "What year was the first road to Key West built?",
+        "llm_response": "1912",
+        "ground_truth": [
+            "mid 1920s"
+        ]
+    }
+]

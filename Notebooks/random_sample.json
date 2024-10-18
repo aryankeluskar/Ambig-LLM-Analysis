@@ -1,0 +1,273 @@
+[
+    {
+        "nq_id": "-2837432231972339561",
+        "nq_question": "When did the first indian expedition to antarctica take place?",
+        "nq_answer": [
+            "1981"
+        ],
+        "ambig_questions": [
+            {
+                "question": "When did the expedition of an Indian to antarctica start?",
+                "answer": [
+                    "1960"
+                ]
+            },
+            {
+                "question": "When did the first expedition led by Indians to antarctica start?",
+                "answer": [
+                    "1981"
+                ]
+            },
+            {
+                "question": "When did the expedition of an Indian to antarctica finish?",
+                "answer": [
+                    "1961"
+                ]
+            },
+            {
+                "question": "When did the first expedition led by Indians to antarctica finish?",
+                "answer": [
+                    "1982"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "2320167713860853017",
+        "nq_question": "Who represents wellesley in the house of representatives?",
+        "nq_answer": [
+            "Alice Peisch"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who represents wellesley in the house of representatives after the 2016 election?",
+                "answer": [
+                    "Joseph Patrick Kennedy III",
+                    "Joseph P. Kennedy III",
+                    "Kennedy"
+                ]
+            },
+            {
+                "question": "Who represents wellesley in the house of representatives after the 2014 election?",
+                "answer": [
+                    "Joseph Patrick Kennedy III",
+                    "Joseph P. Kennedy III",
+                    "Kennedy"
+                ]
+            },
+            {
+                "question": "Who represents wellesley in the house of representatives after the 2012 election?",
+                "answer": [
+                    "Joseph Patrick Kennedy III",
+                    "Joseph P. Kennedy III",
+                    "Kennedy"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "-4154210318990712371",
+        "nq_question": "Who sang the theme song for fat albert?",
+        "nq_answer": [
+            "Kim Carnes",
+            "Michael Gray",
+            "Edward Fournier"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who sang the main vocals in the theme song for fat albert?",
+                "answer": [
+                    "Michael Gray"
+                ]
+            },
+            {
+                "question": "Who sang the background vocals in the theme song for fat albert?",
+                "answer": [
+                    "Kim Carnes",
+                    "Edward Fournier"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "-340214265983121820",
+        "nq_question": "When did the vietnam war start for us?",
+        "nq_answer": [
+            "1965"
+        ],
+        "ambig_questions": [
+            {
+                "question": "When did the vietnam war start for us due to the beginning of formal U.S. military personnel assignments in Viet Nam?",
+                "answer": [
+                    "May 1, 1950"
+                ]
+            },
+            {
+                "question": "When did the vietnam war start for us due to Truman sending the MAAG to Vietnam?",
+                "answer": [
+                    "September 1950"
+                ]
+            },
+            {
+                "question": "When did the vietnam war start for us as recognized by the Vietnam Veterans Memorial?",
+                "answer": [
+                    "November 1, 1955"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "6920948055273145126",
+        "nq_question": "Where did the song santa claus is coming to town come from?",
+        "nq_answer": [
+            "Eddie Cantor 's radio show"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Which show was the song santa claus is coming to town sung? ",
+                "answer": [
+                    " Eddie Cantor's radio show"
+                ]
+            },
+            {
+                "question": "Who wrote the song santa claus is coming to town? ",
+                "answer": [
+                    " J. Fred Coots and Haven Gillespie"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "711516285237606965",
+        "nq_question": "Who sang rockin pneumonia and boogie woogie flu?",
+        "nq_answer": [
+            "Huey ' Piano ' Smith"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who originally sang rockin pneumonia and boogie woogie flu?",
+                "answer": [
+                    "Huey Pierce Smith",
+                    "Huey \"Piano\" Smith"
+                ]
+            },
+            {
+                "question": "Who sang rockin pneumonia and boogie woogie flu in 1972?",
+                "answer": [
+                    "John Henry Ramistella",
+                    "Johnny Rivers"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "-8851004993639469397",
+        "nq_question": "When is dragon ball super 130 episode coming out?",
+        "nq_answer": [
+            "March 18 , 2018"
+        ],
+        "ambig_questions": [
+            {
+                "question": "When is dragon ball super 130 episode coming out in Japan?",
+                "answer": [
+                    "March 18, 2018"
+                ]
+            },
+            {
+                "question": "When is dragon ball super 130 episode coming out in the US?",
+                "answer": [
+                    "September 28, 2019"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "2453291549837142650",
+        "nq_question": "Who is mr smith in sarah jane adventures?",
+        "nq_answer": [
+            "Alexander Armstrong"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Who is the voice of Mr Smith in Sarah Jane Adventures?",
+                "answer": [
+                    "Alexander Armstrong"
+                ]
+            },
+            {
+                "question": "What is Mr Smith's race in Sarah Jane Adventures?",
+                "answer": [
+                    "Xylok"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "8514834104960699540",
+        "nq_question": "Which geographical part of haryana is shivalik hills situated?",
+        "nq_answer": [
+            "northeast"
+        ],
+        "ambig_questions": [
+            {
+                "question": "Which type of of geological formation in haryana is shivalik hills situated?",
+                "answer": [
+                    "mountain range",
+                    "mountains"
+                ]
+            },
+            {
+                "question": "Which mountain range of haryana is shivalik hills situated?",
+                "answer": [
+                    "Himalaya",
+                    "Himalayas"
+                ]
+            }
+        ]
+    },
+    {
+        "nq_id": "-4184569725653603290",
+        "nq_question": "What does it mean for a single to go platinum?",
+        "nq_answer": [
+            "sale of one million units"
+        ],
+        "ambig_questions": [
+            {
+                "question": "What does it mean for a single to go platinum according to RIAA certification?",
+                "answer": [
+                    "sale of one million units for albums and two million for singles"
+                ]
+            },
+            {
+                "question": "What does it mean for a single to go platinum according to IMPALA certification?",
+                "answer": [
+                    "400,000+ sales"
+                ]
+            },
+            {
+                "question": "What does it mean for a single to go platinum in the United states?",
+                "answer": [
+                    "1,000,000 sales"
+                ]
+            },
+            {
+                "question": "What does it mean for a single to go platinum in the United Kingdom?",
+                "answer": [
+                    "600,000 sales"
+                ]
+            },
+            {
+                "question": "What does it mean for a single to go platinum in Canada?",
+                "answer": [
+                    "80,000 sales"
+                ]
+            },
+            {
+                "question": "What does it mean for a single to go platinum in France?",
+                "answer": [
+                    "150,000 sales"
+                ]
+            }
+        ]
+    }
+]
