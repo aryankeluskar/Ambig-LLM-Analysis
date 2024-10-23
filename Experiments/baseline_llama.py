@@ -34,7 +34,7 @@ def call_llama(user_message):
         )
 
         response_body = json.loads(response.get('body').read())
-        return response_body['outputs'][0]['text'].strip()
+        return response_body['generation'].strip()
 
     except (ClientError, Exception) as e:
         print(f"ERROR: Can't invoke '{model_id}'. Reason: {e}")
