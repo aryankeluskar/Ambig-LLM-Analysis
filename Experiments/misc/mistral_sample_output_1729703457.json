@@ -1,0 +1,93 @@
+[
+    {
+        "data_id": "7791567524064410589",
+        "ambig_question": "When does doctor strange get the infinity stone?",
+        "llm_response": "Doctor Strange gets the time stone in the",
+        "formatted_response": "Doctor Strange gets the time stone in the",
+        "ground_truth": [
+            "Doctor Strange ( 2016 )"
+        ]
+    },
+    {
+        "data_id": "-2402416834382706439",
+        "ambig_question": "When was the order of the phoenix filmed?",
+        "llm_response": "The Order of the Phoenix was filmed from February",
+        "formatted_response": "The Order of the Phoenix was filmed from February",
+        "ground_truth": [
+            "February to November 2006"
+        ]
+    },
+    {
+        "data_id": "440666317880851494",
+        "ambig_question": "When does the series yellowstone start on paramount?",
+        "llm_response": "The series Yellowstone starts on Paramount on",
+        "formatted_response": "The series Yellowstone starts on Paramount on",
+        "ground_truth": [
+            "June 20 , 2018"
+        ]
+    },
+    {
+        "data_id": "6007054438735952873",
+        "ambig_question": "What are the inscriptions on the lincoln memorial?",
+        "llm_response": "The inscriptions on the Lincoln Memorial are",
+        "formatted_response": "The inscriptions on the Lincoln Memorial are",
+        "ground_truth": [
+            "Second Inaugural Address",
+            "The Gettysburg Address"
+        ]
+    },
+    {
+        "data_id": "6260792132837226445",
+        "ambig_question": "Who won the most baseball games in a season?",
+        "llm_response": "The New York Yankees won 1",
+        "formatted_response": "The New York Yankees won 1",
+        "ground_truth": [
+            "Chicago Cubs"
+        ]
+    },
+    {
+        "data_id": "-4745889320327601956",
+        "ambig_question": "When did the third industrial revolution take place?",
+        "llm_response": "The third industrial revolution took place from the mid-",
+        "formatted_response": "The third industrial revolution took place from the mid-",
+        "ground_truth": [
+            "during the 1980s"
+        ]
+    },
+    {
+        "data_id": "4294426664193526321",
+        "ambig_question": "Where did they film return of the jedi endor?",
+        "llm_response": "Redwood National and State Parks in",
+        "formatted_response": "Redwood National and State Parks in",
+        "ground_truth": [
+            "Del Norte County , CA"
+        ]
+    },
+    {
+        "data_id": "-1452879536450036456",
+        "ambig_question": "Who plays miltenberger in the long road home?",
+        "llm_response": "Jon Beavers",
+        "formatted_response": "Jon Beavers",
+        "ground_truth": [
+            "Jeremy Sisto"
+        ]
+    },
+    {
+        "data_id": "-6877578122217007003",
+        "ambig_question": "What are the neighboring countries of dominican republic?",
+        "llm_response": "Haiti, Puerto Rico",
+        "formatted_response": "Haiti, Puerto Rico",
+        "ground_truth": [
+            "Haiti"
+        ]
+    },
+    {
+        "data_id": "-1786255521974365765",
+        "ambig_question": "What are the products that result from the light reactions of photosynthesis?",
+        "llm_response": "ATP and NADPH",
+        "formatted_response": "ATP and NADPH",
+        "ground_truth": [
+            "ATP and NADPH"
+        ]
+    }
+]
