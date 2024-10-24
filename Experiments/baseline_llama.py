@@ -71,4 +71,4 @@ for i in sample:
     with open(f"Experiments/llama_sample_output_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
 
-# 1000 questions took 13 cents, 10 minutes and 53.47 seconds to complete
+# 1000 questions took 0 cents, 58 minutes and 13 seconds to complete on AWS Bedrock

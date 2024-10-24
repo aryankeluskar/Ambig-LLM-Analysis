@@ -71,4 +71,4 @@ for i in sample:
     with open(f"Experiments/mistral_sample_output_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
 
-# 1000 questions took 0 cents, 2 hours 6 minutes and 41.21 seconds to complete
+# 1000 questions took 0 cents, 2 hours 6 minutes and 41.21 seconds to complete on AWS Bedrock

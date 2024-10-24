@@ -39,9 +39,10 @@ sum_disambig_answer_distance = 0
 out = []
 
 for i in range(len(what)):
+    print(f"Processing Question {i}/{len(what)}")
     ambig_answer_distance = 0
     disambig_answer_distance = 0
-    for ans in what[i]["nq_answer"]:
+    for ans in what[i]["ground_truth"]:
         curr_ambig_answer_distance = get_distance(ans, baseline[i]["llm_response"])
         curr_disambig_answer_distance = get_distance(ans, what[i]["llm_response"])
         if curr_ambig_answer_distance > ambig_answer_distance:
@@ -69,4 +70,16 @@ for i in range(len(what)):
 
     out.append(curr)
 
-    json.dump(out, open('Experiments/eval_openai_similarity_out.json', 'w'))
+    json.dump(out, open('Experiments/eval_mini_openai_similarity_out.json', 'w'))
+
+print(f"Average Question Distance: {sum_question_distance/len(what)}")
+print(f"Average Answer Distance: {sum_answer_distance/len(what)}")
+print(f"Average Ambig Answer Distance: {sum_ambig_answer_distance/len(what)}")
+print(f"Average Disambig Answer Distance: {sum_disambig_answer_distance/len(what)}")
+
+# eval took 0 cents, 1 hour 9 minutes and 9.66 seconds
+
+# Average Question Distance: 0.9083237230070496
+# Average Answer Distance: 0.7534230850972128
+# Average Ambig Answer Distance: 0.6205994227389853
+# Average Disambig Answer Distance: 0.6394161715249731

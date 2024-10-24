@@ -14,7 +14,7 @@ chat_completion = client.chat.completions.create(
             "content": "",
         }
     ],
-    model="gpt-4o-mini",
+    model="gpt-4o",
 )
 
 str(chat_completion.choices[0].message.content)
@@ -27,16 +27,13 @@ all_qs = json.load(open("data/filtered_train.json"))
 # import random
 # sample = random.sample(all_qs, 1000)
 
-# load mini_sample_input_1729208141.json to maintain consistency
+# store the sample input into sample_input_<current_unix_time>.json
 sample = json.load(open("Experiments/mini_sample_input_1729208141.json"))
 
-# store the sample input into sample_input_<current_unix_time>.json
 import time
 current_unix_time = int(time.time())
-with open(f"Experiments/mini_ques_what_input_{current_unix_time}.json", "w") as f:
+with open(f"Experiments/o_ques_what_input_{current_unix_time}.json", "w") as f:
     json.dump(sample, f)
-
-sample = json.load(open("Experiments/mini_sample_input_1729208141.json"))
 
 count = 0
 out = []
@@ -51,7 +48,7 @@ for i in sample:
                 "content": f"Rewrite this question replacing all questions with a what, but retain the meaning by specifying what entity or what person or what timeframe the \"what\" answering. Also specify the current year is 2018 if needed to answer a time-based question. The Question: {i['nq_question']}",
             }
         ],
-        model="gpt-4o-mini"
+        model="gpt-4o"
     )
 
     what_ques = client.chat.completions.create(
@@ -61,7 +58,7 @@ for i in sample:
                 "content": f"Answer the question as concisely as possible with ONLY one answer without any other text:  {chat_completion.choices[0].message.content}",
             }
         ],
-        model="gpt-4o-mini"
+        model="gpt-4o"
     )
 
     # print(f"\t\tAnswer: \t {baseline.choices[0].message.content}")
@@ -78,8 +75,8 @@ for i in sample:
     out.append(curr)
 
     # store the output into sample_output_<current_unix_time>.json
-    with open(f"Experiments/mini_ques_what_out_{current_unix_time}.json", "w") as f:
+    with open(f"Experiments/o_ques_what_out_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
 
 
-# 1000 questions took 3 cents, 22 minutes and 51.23 seconds to complete
+# 1000 questions took 3 cents, 26 minutes and 51.23 seconds to complete

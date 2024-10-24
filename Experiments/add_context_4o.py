@@ -33,7 +33,7 @@ sample = json.load(open("Experiments/mini_sample_input_1729208141.json"))
 # store the sample input into sample_input_<current_unix_time>.json
 import time
 current_unix_time = int(time.time())
-with open(f"Experiments/mini_ques_what_input_{current_unix_time}.json", "w") as f:
+with open(f"Experiments/mini_add_context_input_{current_unix_time}.json", "w") as f:
     json.dump(sample, f)
 
 sample = json.load(open("Experiments/mini_sample_input_1729208141.json"))
@@ -48,7 +48,7 @@ for i in sample:
         messages=[
             {
                 "role": "user",
-                "content": f"Rewrite this question replacing all questions with a what, but retain the meaning by specifying what entity or what person or what timeframe the \"what\" answering. Also specify the current year is 2018 if needed to answer a time-based question. The Question: {i['nq_question']}",
+                "content": f"Add extra information to the following question. Your aim is to disambiguate what it is asking: {i['nq_question']}",    
             }
         ],
         model="gpt-4o-mini"
@@ -78,7 +78,7 @@ for i in sample:
     out.append(curr)
 
     # store the output into sample_output_<current_unix_time>.json
-    with open(f"Experiments/mini_ques_what_out_{current_unix_time}.json", "w") as f:
+    with open(f"Experiments/mini_add_context_out_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
 
 
