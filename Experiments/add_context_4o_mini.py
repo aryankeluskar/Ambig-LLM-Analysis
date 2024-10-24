@@ -3,6 +3,10 @@ from openai import OpenAI
 import dotenv
 dotenv.load_dotenv()
 
+# start time
+import time
+start = time.time()
+
 client = OpenAI(
   api_key=os.environ.get("DMML_API_KEY"),
 )
@@ -48,7 +52,7 @@ for i in sample:
         messages=[
             {
                 "role": "user",
-                "content": f"Add extra information to the following question. Your aim is to disambiguate what it is asking: {i['nq_question']}",    
+                "content": f"Add extra information to the following question. Also specify the current month and year is January 2018, so answer questions accordingly. Your aim is to disambiguate what it is asking: {i['nq_question']}",    
             }
         ],
         model="gpt-4o-mini"
@@ -83,3 +87,8 @@ for i in sample:
 
 
 # 1000 questions took 3 cents, 22 minutes and 51.23 seconds to complete
+
+# end time and save in add_context_4o.txt
+end = time.time()
+with open("Experiments/add_context_4o_mini.txt", "w") as f:
+    f.write(f"1000 questions took {end - start} seconds to complete")

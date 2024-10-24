@@ -3,6 +3,10 @@ from openai import OpenAI
 import dotenv
 dotenv.load_dotenv()
 
+# start time
+import time
+start = time.time()
+
 client = OpenAI(
   api_key=os.environ.get("DMML_API_KEY"),
 )
@@ -14,7 +18,7 @@ chat_completion = client.chat.completions.create(
             "content": "",
         }
     ],
-    model="gpt-4o-mini",
+    model="gpt-4o",
 )
 
 str(chat_completion.choices[0].message.content)
@@ -33,10 +37,8 @@ sample = json.load(open("Experiments/mini_sample_input_1729208141.json"))
 # store the sample input into sample_input_<current_unix_time>.json
 import time
 current_unix_time = int(time.time())
-with open(f"Experiments/mini_add_context_input_{current_unix_time}.json", "w") as f:
+with open(f"Experiments/o_add_context_input_{current_unix_time}.json", "w") as f:
     json.dump(sample, f)
-
-sample = json.load(open("Experiments/mini_sample_input_1729208141.json"))
 
 count = 0
 out = []
@@ -48,10 +50,10 @@ for i in sample:
         messages=[
             {
                 "role": "user",
-                "content": f"Add extra information to the following question. Your aim is to disambiguate what it is asking: {i['nq_question']}",    
+                "content": f"Add extra information to the following question. Also specify the current month and year is January 2018, so answer questions accordingly. Your aim is to disambiguate what it is asking: {i['nq_question']}",    
             }
         ],
-        model="gpt-4o-mini"
+        model="gpt-4o"
     )
 
     what_ques = client.chat.completions.create(
@@ -61,7 +63,7 @@ for i in sample:
                 "content": f"Answer the question as concisely as possible with ONLY one answer without any other text:  {chat_completion.choices[0].message.content}",
             }
         ],
-        model="gpt-4o-mini"
+        model="gpt-4o"
     )
 
     # print(f"\t\tAnswer: \t {baseline.choices[0].message.content}")
@@ -78,8 +80,13 @@ for i in sample:
     out.append(curr)
 
     # store the output into sample_output_<current_unix_time>.json
-    with open(f"Experiments/mini_add_context_out_{current_unix_time}.json", "w") as f:
+    with open(f"Experiments/o_add_context_out_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
 
 
 # 1000 questions took 3 cents, 22 minutes and 51.23 seconds to complete
+
+# end time and save in add_context_4o.txt
+end = time.time()
+with open("Experiments/add_context_4o.txt", "w") as f:
+    f.write(f"1000 questions took {end - start} seconds to complete")

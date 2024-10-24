@@ -77,6 +77,3 @@ for i in sample:
     # store the output into sample_output_<current_unix_time>.json
     with open(f"Experiments/o_ques_what_out_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
-
-
-# 1000 questions took 3 cents, 26 minutes and 51.23 seconds to complete
