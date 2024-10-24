@@ -1,1 +1,0 @@
-1000 questions took 4682.1917498111725 seconds to complete

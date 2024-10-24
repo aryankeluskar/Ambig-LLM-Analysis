@@ -82,11 +82,11 @@ for i in sample:
     out.append(curr)
 
     # store the output into sample_output_<current_unix_time>.json
-    with open(f"Experiments/mini_add_context_out_{current_unix_time}.json", "w") as f:
+    with open(f"Experiments/mini_add_context_output_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
 
 
-# 1000 questions took 3 cents, 22 minutes and 51.23 seconds to complete
+# 1000 questions took 27 cents, 1 hours 18 minutes and 2.1917498111725 seconds to complete
 
 # end time and save in add_context_4o.txt
 end = time.time()

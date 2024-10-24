@@ -3,10 +3,6 @@ from openai import OpenAI
 import dotenv
 dotenv.load_dotenv()
 
-# start time
-import time
-start = time.time()
-
 client = OpenAI(
   api_key=os.environ.get("DMML_API_KEY"),
 )
@@ -18,16 +14,21 @@ chat_completion = client.chat.completions.create(
             "content": "",
         }
     ],
-    model="gpt-4o",
+    model="gpt-4o-mini",
+    temperature=0.2
 )
 
 str(chat_completion.choices[0].message.content)
+
+# start time
+import time
+start = time.time()
 
 # go through sample.json and ask questions to gpt
 import json
 all_qs = json.load(open("data/filtered_train.json"))
 
-# randomly sample 0 questions
+# randomly sample 1000 questions
 # import random
 # sample = random.sample(all_qs, 1000)
 
@@ -53,7 +54,8 @@ for i in sample:
                 "content": f"Add extra information to the following question. Also specify the current month and year is January 2018, so answer questions accordingly. Your aim is to disambiguate what it is asking: {i['nq_question']}",    
             }
         ],
-        model="gpt-4o"
+        model="gpt-4o-mini",
+        temperature=0.2
     )
 
     add_context = client.chat.completions.create(
@@ -63,7 +65,8 @@ for i in sample:
                 "content": f"Answer the question as concisely as possible with ONLY one answer without any other text:  {chat_completion.choices[0].message.content}",
             }
         ],
-        model="gpt-4o"
+        model="gpt-4o-mini",
+        temperature=0.2
     )
 
     # print(f"\t\tAnswer: \t {baseline.choices[0].message.content}")
@@ -80,13 +83,11 @@ for i in sample:
     out.append(curr)
 
     # store the output into sample_output_<current_unix_time>.json
-    with open(f"Experiments/o_add_context_output_{current_unix_time}.json", "w") as f:
+    with open(f"Experiments/mini_low_temp_add_context_output_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
 
+# 1000 questions took 19 cents, 1 hour 25 minutes and 5.41 seconds to complete
 
-# 1000 questions took 2.82 dollars, 1 hour and 34.163475036621 seconds to complete
-
-# end time and save in add_context_4o.txt
 end = time.time()
-with open("Experiments/add_context_4o.txt", "w") as f:
+with open("Experiments/low_temp_add_context_4o_mini.txt", "w") as f:
     f.write(f"1000 questions took {end - start} seconds to complete")

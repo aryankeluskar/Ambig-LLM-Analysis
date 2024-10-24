@@ -78,7 +78,7 @@ for i in sample:
     out.append(curr)
 
     # store the output into sample_output_<current_unix_time>.json
-    with open(f"Experiments/mini_ques_what_out_{current_unix_time}.json", "w") as f:
+    with open(f"Experiments/mini_ques_what_output_{current_unix_time}.json", "w") as f:
         json.dump(out, f)
 
 
