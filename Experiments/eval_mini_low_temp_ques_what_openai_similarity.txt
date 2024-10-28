@@ -1,0 +1,5 @@
+Average Question Distance: 0.9136788078812479
+Average Answer Distance: 0.8087363711745623
+Average Ambig Answer Distance: 0.6330811431798736
+Average Disambig Answer Distance: 0.6446306763231885
+Time taken: 3208.731695175171 seconds

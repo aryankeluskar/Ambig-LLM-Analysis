@@ -1,0 +1,40 @@
+
+Results between baseline and ques_what on 4o, default temperature
+    Average Question Distance: 0.9083237230070496
+    Average Answer Distance: 0.7534230850972128
+    Average Ambig Answer Distance: 0.6205994227389853
+    Average Disambig Answer Distance: 0.6394161715249731
+    Took 1 hour 9 minutes and 9.66 seconds
+
+Results between baseline and add_context on mini, default temperature
+    Average Question Distance: 0.7415486304096702
+    Average Answer Distance: 0.6985865101040537
+    Average Ambig Answer Distance: 0.6205855360677768
+    Average Disambig Answer Distance: 0.635012369488097
+    Took 3488.264662027359 seconds
+
+Results between baseline and add_context on mini, default temperature using large embedding model
+    Average Question Distance: 0.736706240959963
+    Average Answer Distance: 0.7020856606732992
+    Average Ambig Answer Distance: 0.6258758402471007
+    Average Disambig Answer Distance: 0.643423044363618
+    Time taken: 5219.348090171814 seconds
+
+Results between baseline and ques_what on mini, low temperature using large embedding model
+    Average Question Distance: 0.9136788078812479
+    Average Answer Distance: 0.8087363711745623
+    Average Ambig Answer Distance: 0.6330811431798736
+    Average Disambig Answer Distance: 0.6446306763231885
+    Time taken: 3208.731457233429 seconds
+
+Results between default temp and low temp on mini, using large embedding model
+    Average Answer Distance: 0.8895205893716505
+    Average def temp Answer Distance: 0.6258797742305033
+    Average low temp Answer Distance: 0.6374012371227692
+    Time taken: 3827.9380888938904 seconds
+
+Results between default on 4o-mini and default on 4o, using large embedding model
+    Average Answer Distance: 0.7519975770735202
+    Average 4o-mini Distance: 0.6258803483464956
+    Average 4o Answer Distance: 0.672776616480521
+    Time taken: 3797.306961297989 seconds

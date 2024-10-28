@@ -1,7 +1,7 @@
 import json
 
-baseline = json.loads(open('Experiments/mini_low_temp_output_1729792391.json').read())
-file_to_compare = json.loads(open('Experiments/mini_low_temp_ques_what_output_1729793572.json').read())
+baseline = json.loads(open('Experiments/mini_sample_output_1729208141.json').read())
+file_to_compare = json.loads(open('Experiments/o_sample_output_1729209119.json').read())
 
 SIZE = 1000
 
@@ -31,11 +31,11 @@ def cosine_similarity(vec1, vec2):
     
     return dot_product / magnitude
 
-def get_embedding(text, model="text-embedding-3-small"):
+def get_embedding(text, model="text-embedding-3-large"):
    text = text.replace("\n", " ")
    return client.embeddings.create(input = [text], model=model).data[0].embedding
 
-def get_distance(text1, text2, model="text-embedding-3-small"):
+def get_distance(text1, text2, model="text-embedding-3-large"):
    text1 = str(text1).lower()
    text2 = str(text2).lower()
    embedding1 = get_embedding(text1, model)
@@ -58,9 +58,6 @@ out = []
 import time
 start = time.time()
 
-# 8
-# range(8) = [0, 1, 2, 3, 4, 5, 6, 7]
-
 for i in range(SIZE):
     print(f"Processing Question {i}/{SIZE}")
 
@@ -77,37 +74,37 @@ for i in range(SIZE):
     curr = {
         "data_id": file_to_compare[i]["data_id"],
         "ambig_question": file_to_compare[i]["ambig_question"],
-        "ambig_prompt_response": baseline[i]["llm_response"],
-        "disambig_question": file_to_compare[i]["disambig_question"],
-        "disambig_prompt_response": file_to_compare[i]["llm_response"],
+        "mini_prompt_response": baseline[i]["llm_response"],
+        # "disambig_question": file_to_compare[i]["disambig_question"],
+        "o_prompt_response": file_to_compare[i]["llm_response"],
         "ground_truth": file_to_compare[i]["ground_truth"],
-        "question_distance": get_distance(file_to_compare[i]["ambig_question"], file_to_compare[i]["disambig_question"]),
+        # "question_distance": get_distance(file_to_compare[i]["ambig_question"], file_to_compare[i]["disambig_question"]),
         "answer_distance": get_distance(baseline[i]["llm_response"], file_to_compare[i]["llm_response"]),
-        "ambig_answer_distance": ambig_answer_distance,
-        "disambig_answer_distance": disambig_answer_distance
+        "mini_answer_distance": ambig_answer_distance,
+        "o_answer_distance": disambig_answer_distance
     }
 
-    sum_question_distance += curr["question_distance"]
+    # sum_question_distance += curr["question_distance"]
     sum_answer_distance += curr["answer_distance"]
-    sum_ambig_answer_distance += curr["ambig_answer_distance"]
-    sum_disambig_answer_distance += curr["disambig_answer_distance"]
+    sum_ambig_answer_distance += curr["mini_answer_distance"]
+    sum_disambig_answer_distance += curr["o_answer_distance"]
 
     out.append(curr)
 
-    json.dump(out, open('Experiments/eval_mini_low_temp_ques_what_openai_similarity_out.json', 'w'))
+    json.dump(out, open('Experiments/eval_large_mini_o_openai_similarity_out.json', 'w'))
 
-print(f"Average Question Distance: {sum_question_distance/SIZE}")
+# print(f"Average Question Distance: {sum_question_distance/SIZE}")
 print(f"Average Answer Distance: {sum_answer_distance/SIZE}")
 print(f"Average Ambig Answer Distance: {sum_ambig_answer_distance/SIZE}")
 print(f"Average Disambig Answer Distance: {sum_disambig_answer_distance/SIZE}")
-
 print(f"Time taken: {time.time() - start} seconds")
 
-# add to eval_mini_openai_large_similarity.txt
+# add to eval__mini_o_openai_large_similarity.txt
 
-with open('Experiments/eval_mini_low_temp_ques_what_openai_similarity.txt', 'a') as f:
-    f.write(f"Average Question Distance: {sum_question_distance/SIZE}\n")
+with open('Experiments/eval__mini_o_openai_large_similarity.txt', 'a') as f:
+    # f.write(f"Average Question Distance: {sum_question_distance/SIZE}\n")
     f.write(f"Average Answer Distance: {sum_answer_distance/SIZE}\n")
     f.write(f"Average Ambig Answer Distance: {sum_ambig_answer_distance/SIZE}\n")
     f.write(f"Average Disambig Answer Distance: {sum_disambig_answer_distance/SIZE}\n")
     f.write(f"Time taken: {time.time() - start} seconds\n")
+    f.write("\n")
