@@ -1,0 +1,50 @@
+[
+    {
+        "nq_id": "-4153878831646153158",
+        "ambig_question": "Nfl record for most sacks by a team in a game?",
+        "ambig_llm_answer": "12 sacks.",
+        "disambig_question": "Nfl record for most sacks by a team in a game is how many sacks?",
+        "disambig_llm_answer": "12 sacks.",
+        "question_distance": 0.9265308383369393,
+        "answer_distance": 0.6261059735921753,
+        "ambig_answer_distance": 0.378891312645188,
+        "disambig_answer_distance": 0.3789213507919056,
+        "ground_truth": [
+            "12"
+        ],
+        "provided_ques_llm_answer": "12 sacks.",
+        "provided_disambig_answer_distance": 0.3940357441973559
+    },
+    {
+        "nq_id": "-2028814158008205327",
+        "ambig_question": "Who sings the original i'll keep holding on?",
+        "ambig_llm_answer": "The Marvelettes",
+        "disambig_question": "Which band sings the original i'll keep holding on?",
+        "disambig_llm_answer": "The Marvelettes",
+        "question_distance": 0.9606945492647609,
+        "answer_distance": 0.3365850933308642,
+        "ambig_answer_distance": 0.8891088004404665,
+        "disambig_answer_distance": 0.889153541194593,
+        "ground_truth": [
+            "Motown singing group The Marvelettes"
+        ],
+        "provided_ques_llm_answer": "The Marvelettes.",
+        "provided_disambig_answer_distance": 0.8231126177941123
+    },
+    {
+        "nq_id": "-2557146273859880979",
+        "ambig_question": "What is the cat's name on mickey mouse clubhouse?",
+        "ambig_llm_answer": "Figaro",
+        "disambig_question": "What is the cat's name with black fur on mickey mouse clubhouse?",
+        "disambig_llm_answer": "Figaro",
+        "question_distance": 0.9363268066574764,
+        "answer_distance": 0.2525155702945882,
+        "ambig_answer_distance": 1.0000000000000002,
+        "disambig_answer_distance": 1.0000000000000002,
+        "ground_truth": [
+            "Figaro"
+        ],
+        "provided_ques_llm_answer": "Figaro.",
+        "provided_disambig_answer_distance": 0.9410829239316509
+    }
+]

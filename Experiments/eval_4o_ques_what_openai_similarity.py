@@ -1,7 +1,7 @@
 import json
 
 baseline = json.loads(open('Experiments/o_sample_output_1729209119.json').read())
-file_to_compare = json.loads(open('Experiments/o_ques_what_output_1729741927.json').read())
+file_to_compare = json.loads(open('/Users/aryank/Developer/dmml-research/Experiments/o_fine_tuned_output_1730504487.json').read())
 
 SIZE = 1000
 

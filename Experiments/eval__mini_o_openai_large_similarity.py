@@ -108,3 +108,5 @@ with open('Experiments/eval__mini_o_openai_large_similarity.txt', 'a') as f:
     f.write(f"Average Disambig Answer Distance: {sum_disambig_answer_distance/SIZE}\n")
     f.write(f"Time taken: {time.time() - start} seconds\n")
     f.write("\n")
+
+# This took 1 hour, 3 minutes, and 17.31 seconds
