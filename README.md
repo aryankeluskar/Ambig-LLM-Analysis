@@ -17,4 +17,4 @@ For any questions, comments, and feedback, contact Aryan Keluskar at akeluska@as
 
 ### File Naming Convention
 
-<img src="./file_naming_system.png>
+<img src="./file_naming_system.png">
